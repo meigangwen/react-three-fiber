@@ -5,6 +5,7 @@ import { Center, Environment } from '@react-three/drei'
 import Button from './Button'
 import {Vector3} from 'three'
 
+
 function Rig() {
   const {camera, mouse} = useThree()
   const vec = new Vector3()
